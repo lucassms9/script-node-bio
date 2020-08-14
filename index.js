@@ -11,4 +11,4 @@ server.use('/files',express.static(path.resolve(__dirname, 'tmp', 'uploads')));
 
 server.use(routes);
 
-server.listen(3333);
+server.listen(3331);

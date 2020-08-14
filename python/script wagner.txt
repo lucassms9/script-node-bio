@@ -1,0 +1,37 @@
+#import sys
+#import json
+#import pandas as pd
+#import numpy as np
+#import predict
+#
+#def read_in():
+   # lines = sys.stdin.readlines()
+   #return json.loads(lines[0])
+#
+#def main():
+#    lines = read_in()
+#    df = pd.json_normalize(lines)    
+#    npay = np.array(df['Wavenumber'])
+#    npax = np.array(df['Intensity'])
+   # ret = predict.predict_test_item(npay,npax)
+#    ret = 1;
+#    if ret == 1:
+#       print('Positivo')
+#    elif ret == 0:
+#       print('Inadequada')
+#    else:
+#       print('Negativo')
+#    print('Inadequada')
+import sys
+import json
+#import ml
+# 
+#def read_in():
+#    lines = sys.stdin.readlines()
+#    return json.loads(lines[0]) 
+#
+def main(): 
+    print('Positivo')
+#
+if __name__ == '__main__':
+    main()

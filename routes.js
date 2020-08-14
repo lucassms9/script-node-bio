@@ -9,6 +9,6 @@ const routes = new Router();
 
 const upload = multer(multerConfig);
 
-routes.post('/files', upload.single('file'), FileController.store);
+routes.post('/files', upload.single('Userfile'), FileController.store);
 
 module.exports = routes;
